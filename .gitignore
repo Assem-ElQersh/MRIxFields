@@ -1,0 +1,44 @@
+# Data directories (heavy neuroimaging files and generated pairs)
+data/raw/
+data/paired_splits/
+outputs/
+*.nii
+*.nii.gz
+*.zip
+*.tar
+*.tar.gz
+*.csv
+
+# Jupyter & Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+.pytest_cache/
+
+# IDE & OS specifics
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook temporary results
+notebooks/**/results/
+notebooks/**/eda_outputs/
+notebooks/**/*.zip
+
+# Logs and checkpoints
+*.log
+checkpoints/
+models/
+*.pt
+*.pth
+
+# Project-specific overrides
+project_rules.md
